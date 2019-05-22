@@ -52,16 +52,17 @@ module.exports = {
     'vue/require-prop-types':                      'off',
     'vue/html-closing-bracket-newline':            ['error', { 'singleline': 'never', 'multiline': 'never' }],
     'vue/singleline-html-element-content-newline': 'off',
-    'vue/html-closing-bracket-spacing':            ['error', { 'selfClosingTag': 'never' }],
+    'vue/html-closing-bracket-spacing':            ['error', { 'selfClosingTag': 'always' }],
     'vue/component-name-in-template-casing':       'off',
+    'vue/name-property-casing':                    ['error', 'kebab-case'],
 
     'vue/max-attributes-per-line': [
-      'error', { 'singleline': 3, 'multiline': { 'max': 3, 'allowFirstLine': true } },
+      'error', { 'singleline': 5, 'multiline': { 'max': 5, 'allowFirstLine': true } },
     ],
 
     'vue/html-self-closing': [
       'error', {
-        'html': { 'void': 'never', 'normal': 'never', 'component': 'always' },
+        'html': { 'void': 'off', 'normal': 'never', 'component': 'always' },
         'svg':  'always',
         'math': 'always',
       },
