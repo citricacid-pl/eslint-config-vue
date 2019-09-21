@@ -1,5 +1,5 @@
 {
-  "name": "@appjobs/eslint-config-vue",
+  "name": "@citricacid/eslint-config-vue",
   "version": "1.0.3",
   "description": "Sharable eslint config",
   "private": true,
