@@ -1,6 +1,6 @@
 {
   "name": "@citricacid/eslint-config-vue",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Sharable eslint config",
   "private": true,
   "main": "index.js",
